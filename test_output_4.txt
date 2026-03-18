@@ -1,0 +1,20 @@
+[dotenv@17.3.1] injecting env (3) from .env -- tip: ÔÜÖ´©Å  load multiple .env files with { path: ['.env.local', '.env'] }
+--- Starting System Test ---
+1. Creating user via Admin API: testuser1773763971729@example.com
+   User created and logged in.
+2. Creating Website Monitor...
+   Website created: 68fc42e5-7fe1-4fbd-86c1-b59292c09ebe
+3. Registering Infrastructure Agent...
+   Agent registered: 1cbaa2ee-7b6e-4025-a211-ebcc2dc28a22
+   Agent Key: ag_3bfbe3c912bdf2d456ec462b3304bec18853d501fbb507a9
+4. Simulating Agent Activity...
+   Heartbeat sent.
+   Metrics sent.
+5. Verifying Data via Dashboard API...
+   Success! Retrieved 1 metric records.
+   Latest CPU: 45%
+6. Testing Emergency Actions (Block IP)...
+--- Test Complete ---
+   Emergency action failed: {
+  error: "Could not find the table 'public.blocked_ips' in the schema cache"
+}

@@ -1,0 +1,5 @@
+[dotenv@17.3.1] injecting env (3) from .env -- tip: ­ƒñû agentic secret storage: https://dotenvx.com/as2
+--- Starting System Test ---
+1. Creating user: test_1773763835065@example.com
+Auth failed: Email address "test_1773763835065@example.com" is invalid
+Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), file src\win\async.c, line 76
