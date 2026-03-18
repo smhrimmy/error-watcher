@@ -48,9 +48,7 @@ export default function Login() {
       <div className="max-w-md w-full space-y-8 bg-white p-10 rounded-xl shadow-md">
         <div>
           <div className="flex justify-center">
-            <div className="h-12 w-12 rounded-full bg-blue-100 flex items-center justify-center">
-              <Activity className="h-8 w-8 text-blue-600" />
-            </div>
+            <img src="/favicon.svg" alt="Error Watcher Logo" className="h-12 w-12" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             {isSignUp ? 'Create your account' : 'Sign in to your account'}

@@ -56,8 +56,8 @@ export default function Layout() {
            {/* Mobile Sidebar Content - Simplified copy of Desktop */}
            <div className="flex items-center justify-between h-16 px-6 border-b border-gray-100">
             <span className="text-xl font-bold text-gray-900 flex items-center">
-              <div className="bg-blue-600 p-1.5 rounded-lg mr-2">
-                 <Shield className="w-5 h-5 text-white" />
+              <div className="mr-2 flex-shrink-0">
+                 <img src="/favicon.svg" alt="Error Watcher Logo" className="w-7 h-7" />
               </div>
               Error Watcher
             </span>
@@ -100,9 +100,8 @@ export default function Layout() {
       <div className="hidden lg:flex lg:w-64 lg:flex-col lg:fixed lg:inset-y-0 bg-[#F3F4F6] border-r border-transparent">
         {/* Logo */}
         <div className="flex items-center h-20 px-6">
-          <div className="bg-blue-600 p-1.5 rounded-lg mr-3 shadow-sm">
-             <Shield className="w-5 h-5 text-white" /> 
-             {/* Using Shield as generic logo based on 'home icon' description which might be shield for security app */}
+          <div className="mr-3 flex-shrink-0">
+             <img src="/favicon.svg" alt="Error Watcher Logo" className="w-8 h-8" />
           </div>
           <span className="text-lg font-bold text-gray-900 tracking-tight">
             Error Watcher

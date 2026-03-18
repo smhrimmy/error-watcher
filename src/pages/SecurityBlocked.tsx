@@ -210,9 +210,7 @@ export default function SecurityBlocked() {
       <div className="relative z-10 p-8 bg-[#292d32]/90 backdrop-blur-xl rounded-3xl border border-white/10 shadow-[0_0_50px_rgba(0,206,201,0.2)] max-w-md w-full mx-4">
         <div className="text-center mb-8">
           <div className="flex justify-center mb-6">
-            <div className="p-4 rounded-full bg-red-500/10 shadow-[0_0_30px_rgba(255,77,77,0.4)]">
-              <Lock className="w-16 h-16 text-[#ff4d4d]" />
-            </div>
+            <img src="/favicon.svg" alt="Error Watcher Logo" className="w-16 h-16 filter drop-shadow-[0_0_15px_rgba(255,77,77,0.5)]" />
           </div>
           
           <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-br from-[#ff4d4d] to-[#ff9f43] mb-4 filter drop-shadow-lg">
